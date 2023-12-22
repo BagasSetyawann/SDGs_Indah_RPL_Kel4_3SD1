@@ -1,0 +1,142 @@
+/* Style for hover effect on bars */
+.bar:hover {
+    fill: #4CAF50;
+    /* Green color when hovered */
+}
+
+/* Style for tooltip */
+.tooltip_histogram {
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Style for dropdown */
+#columnDropdown {
+    position: absolute;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Style for hover effect on bars */
+rect:hover {
+    fill: #45a049;
+    /* Darker green color on hover */
+}
+
+/* Style for tooltip */
+.tooltip_bar {
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Style for the dropdown button */
+#yearDropdown_peta {
+    position: absolute;
+    top: 75px;
+    /* Sesuaikan dengan posisi yang diinginkan */
+    left: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for dropdown options */
+#yearDropdown_peta option {
+    font-size: 16px;
+    background-color: #4CAF50;
+    /* Warna hijau */
+    color: #fff;
+    /* Warna teks putih */
+}
+
+/* Style for hover effect on dropdown options */
+#yearDropdown_peta option:hover {
+    background-color: #45a049;
+    /* Warna hijau yang sedikit lebih gelap saat dihover */
+}
+
+.tooltip_peta {
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    left: 20px;
+}
+
+.tooltip_peta-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.tooltip_peta-body {
+    color: #666;
+}
+
+.Provinsi {
+    transition: opacity 0.3s, stroke 0.3s;
+}
+
+/* Add some basic styling */
+#my_dataviz_line {
+    font-family: 'Arial', sans-serif;
+}
+
+.line {
+    fill: none;
+    stroke-width: 3;
+}
+
+.tooltip_line {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 12px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Style the select button */
+#selectButton {
+    font-size: 14px;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+/* Style the axis titles and labels */
+.axis-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.axis-label {
+    font-size: 14px;
+    font-weight: bold;
+}
